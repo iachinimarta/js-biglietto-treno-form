@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css"/>
+        <title>Biglietteria</title>
+    </head>
+    <body>
+
+        <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO!</h1>
+        <form id="prova">
+            <label for="name">Nome Cognome</label>
+            <input type="text" id="name">
+
+            <label for="km">Km da percorrere</label>
+            <input type="number" id="km">
+
+            <label for="eta">Fascia di età</label>
+            <select id="eta">
+                <option value="under18">Under 18</option>
+                <option value="adult">Adult 18+</option>
+                <option value="over65">Over 65</option>
+            </select>
+
+
+
+            <button id="submit">Genera</button>
+            <button id="cancel">Annulla</button>
+
+        </form>
+        
+
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
